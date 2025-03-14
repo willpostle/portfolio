@@ -177,3 +177,12 @@ button:hover {
 .image-overlay:hover {
     transform: translateY(-5px);  /* Optional: slight lift effect */
 }
+
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000; /* so that your nav bar is always on top */
+    /* Additional styling */
+    }
